@@ -1,0 +1,240 @@
+.ai {
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+/* Seletores agrupados para font-weight: normal */
+.ai.aries,
+.ai.taurus,
+.ai.gemini,
+.ai.cancer,
+.ai.leo,
+.ai.virgo,
+.ai.libra,
+.ai.scorpio,
+.ai.sagittarius,
+.ai.capricorn,
+.ai.aquarius,
+.ai.pisces,
+.ai.sun,
+.ai.moon,
+.ai.moon-variant,
+.ai.earth,
+.ai.mercury,
+.ai.venus,
+.ai.mars,
+.ai.jupiter,
+.ai.saturn,
+.ai.uranus,
+.ai.neptune,
+.ai.pluto,
+.ai.chiron,
+.ai.north-node,
+.ai.south-node,
+.ai.part-of-fortune,
+.ai.lilith,
+.ai.ceres,
+.ai.juno,
+.ai.pallas,
+.ai.vesta,
+.ai.conjunction,
+.ai.square,
+.ai.trine,
+.ai.opposition,
+.ai.semisquare,
+.ai.quintile,
+.ai.biquintile,
+.ai.sextile,
+.ai.retrograde,
+.ai.comet {
+    font-weight: normal;
+}
+
+/* Utilize classes mais descritivas */
+.astro-sign {
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.aries:before {
+    content: "\2648";
+}
+
+.taurus:before {
+    content: "\2649";
+}
+
+
+.gemini:before {
+    content: "\264A";
+}
+
+.cancer:before {
+    content: "\264B";
+}
+
+.leo:before {
+    content: "\264C";
+}
+
+.virgo:before {
+    content: "\264D";
+}
+
+.libra:before {
+    content: "\264E";
+}
+
+.scorpio:before {
+    content: "\264F";
+}
+
+.sagittarius:before {
+    content: "\2650";
+}
+
+.capricorn:before {
+    content: "\2651";
+}
+
+.aquarius:before {
+    content: "\2652";
+}
+
+.pisces:before {
+    content: "\2653";
+}
+
+.sun:before {
+    content: "\2609";
+}
+
+.moon:before {
+    content: "\263D";
+}
+
+.moon-variant:before {
+    content: "\263E";
+}
+
+.earth:before {
+    content: "\2295";
+}
+
+.mercury:before {
+    content: "\263F";
+}
+
+.venus:before {
+    content: "\2640";
+}
+
+.mars:before {
+    content: "\2642";
+}
+
+.jupiter:before {
+    content: "\2643";
+}
+
+.saturn:before {
+    content: "\2644";
+}
+
+.uranus:before {
+    content: "\2645";
+}
+
+.neptune:before {
+    content: "\2646";
+}
+
+.pluto:before {
+    content: "\2647";
+}
+
+.chiron:before {
+    content: "\26B7";
+}
+
+.north-node:before {
+    content: "\260A";
+}
+
+.south-node:before {
+    content: "\260B";
+}
+
+.part-of-fortune:before {
+    content: "\2297"
+}
+
+.lilith:before {
+    content: "\26B8";
+}
+
+.ceres:before {
+    content: "\2A1"
+}
+
+.juno:before {
+    content: "\26B5";
+}
+
+.pallas:before {
+    content: "\26B4";
+}
+
+.vesta:before {
+    content: "\26B6";
+}
+
+.conjunction:before {
+    content: "\260C";
+    font-size: 1.4em;
+}
+
+.square:before {
+    content: "\25A1";
+    font-size: 1.5em;
+}
+
+.trine:before {
+    content: "\25B3"
+}
+
+.opposition:before {
+    content: "\260D";
+    font-size: 1.4em;
+}
+
+.semisquare:before {
+    content: "\2220"
+}
+
+.quintile:before {
+    content: "\051"
+}
+
+.biquintile:before {
+    content: "\0062\0051"
+}
+
+.retrograde:before {
+    content: "\211E"
+}
+
+.comet:before {
+    content: "\2604";
+    font-size: 1.5em;
+}
+
+.sextile:before {
+    content: "\2731";
+}
