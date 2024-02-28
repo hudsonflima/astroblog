@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Head from 'next/head';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Link from 'next/link';
@@ -8,9 +9,14 @@ import { faArrowLeft, faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Peixestext = () => {
   return (
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signo de Áries - Astroblog</title>
+      </Head>
     <div className='bg-[#1c212e]'>
       <Header />
-      <div className="flex justify-left mt-8 container ml-10">
+      <div className="flex justify-left mt-8 container ">
         <Link href="/signos/aquario">
           <div className="px-4 py-2 mx-2 bg-indigo-700 text-white rounded-md">
             <FontAwesomeIcon icon={faArrowLeft} title={'Signo anterior'} />
@@ -161,6 +167,7 @@ const Peixestext = () => {
       </div>
       <Footer />
     </div>
+    </>
   )
 }
 

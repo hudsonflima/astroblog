@@ -11,8 +11,8 @@ const Header = () => {
   };
 
   return (
-    <div className="pt-4">
-      <header className="bg-slate-950 text-white py-4 mx-8 px-8 rounded-xl">
+    <div className="">
+      <header className="bg-slate-950 text-white py-4 px-8">
         <div className="container mx-auto flex justify-between items-center px-4">
           <div className="flex items-center"> {/* Adicione o componente AstroImage aqui */}
             <AstroImage /> {/* Componente AstroImage */}

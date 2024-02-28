@@ -13,7 +13,7 @@ const signos = () => {
       <Header />
       <div className="relative min-h-screen">
         <div className="container mx-auto px-4 py-8">
-          <h1 className="text-3xl font-medium mb-4 text-gray-200">FAQ de Astrologia</h1>
+          <h1 className="text-3xl font-medium mb-4 text-gray-200">FAQ</h1>
 
           {/* Perguntas e respostas */}
           <div className="space-y-6 container px-12">

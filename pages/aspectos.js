@@ -79,7 +79,7 @@ const AspectosAstrologicos = () => {
                     <div>
                         <div className="flex items-center mb-8 mr-10">
                             <Image src="/svg/sesquiquadratura.svg" width={100} alt='' height={100} />
-                            <div className="ml-10">
+                            <div className="">
                                 <h2 className="text-gray-300 text-lg font-medium">Sesquiquadratura - 135°, desarmonioso</h2>
                                 <p className='text-gray-400 italic'>Regência/Predominância do ângulo: 135°</p>
                             </div>
@@ -87,7 +87,7 @@ const AspectosAstrologicos = () => {
 
                         <div className="flex items-center mb-8 mr-10">
                             <Image src="/svg/semisextil.svg" alt='' width={100} height={100} />
-                            <div className="ml-10">
+                            <div className="">
                                 <h2 className="text-gray-300 text-lg font-medium">Semisextil - 30°, neutro</h2>
                                 <p className='text-gray-400 italic'>Regência/Predominância do ângulo: 30°</p>
                             </div>
@@ -95,7 +95,7 @@ const AspectosAstrologicos = () => {
 
                         <div className="flex items-center mb-8 mr-10">
                             <Image src="/svg/quincuncio.svg" alt='' width={100} height={100} />
-                            <div className="ml-10">
+                            <div className="">
                                 <h2 className="text-gray-300 text-lg font-medium">Quincúncio ou Inconjunção - 150°, neutro</h2>
                                 <p className='text-gray-400 italic'>Regência/Predominância do ângulo: 150°</p>
                             </div>
@@ -119,7 +119,7 @@ const AspectosAstrologicos = () => {
 
                         <div className="flex items-center mb-8 mr-10">
                             <Image src="/svg/semiquadratura.svg" alt='' width={100} height={100} />
-                            <div className="ml-10">
+                            <div className="">
                                 <h2 className="text-gray-300 text-lg font-medium">Semiquadratura - 45°, desarmonioso</h2>
                                 <p className='text-gray-400 italic'>Regência/Predominância do ângulo: 45°</p>
                             </div>
