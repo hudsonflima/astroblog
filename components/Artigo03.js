@@ -1,6 +1,6 @@
 const ArticleCard03 = () => {
   return (
-    <div className="bg-slate-950/90 transition-all rounded-lg shadow-lg px-4 py-8 pb-[69px] w-full md:w-1/2">
+    <div className="bg-slate-950/90 transition-all rounded-lg shadow-lg p-12 pb-[69px] w-full md:w-1/2">
       <h2 className="text-lg text-white font-bold mb-4">Benefícios da Astrologia</h2>
       <ul className="text-gray-300 list-disc list-inside text-sm italic">
         <li className="flex items-center">
