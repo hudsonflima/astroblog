@@ -15,7 +15,7 @@
   /* Isso cria o efeito de círculo */
   overflow: hidden;
   /* Isso garante que a imagem não ultrapasse os limites do círculo */
-  animation: rotate 100s linear infinite;
+  animation: rotate 20s linear infinite;
 }
 
 /* Defina a animação de rotação */
@@ -80,3 +80,4 @@
 .overlay.active {
   display: block;
 }
+

@@ -8,7 +8,7 @@ const signos = [
 
 const GridSignos = () => {
   return (
-    <div className="">
+    <div className="md:justify-center md:items-center">
       <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 gap-10 px-12 py-8">
         {signos.map((signo, index) => (
           <Link key={index} href={`/signos/${signo}`}>

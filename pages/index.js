@@ -2,33 +2,31 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import AstroImage from '../components/AstroImage'; // Importe o componente AstroImage
-import Artigo01 from '../components/Artigo01'; // Componente para os artigos
-import Artigo02 from '../components/Artigo02'; // Componente para os artigos
-import Artigo03 from '../components/Artigo03'; // Componente para os artigos
-
+import Artigo01 from '../components/Artigo01';
+import Artigo02 from '../components/Artigo02';
+import Artigo03 from '../components/Artigo03';
 
 const Home = () => {
   return (
-    <div className='bg-[#1c212e]'>
+    <>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home - Astroblog</title>
       </Head>
-      <Header />
-      <div className="relative min-h-screen">
-        <AstroImage />
-        <div className="absolute inset-1 justify-center items-center ">
-          <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-8">
-            <Artigo01 />
-            <Artigo02 />
+      <div className="bg-[#1c212e]">
+        <Header />
+        <div className="container items-center justify-center mx-auto gap-8 pt-8">
+          <div className="flex flex-col md:flex-row md:gap-8 gap-8">
+            <Artigo01 className="md:flex-1" /> {/* Adicione a classe pb-8 pt-8 para espaçamento inferior em dispositivos móveis */}
+            <Artigo02 className="md:flex-1" /> {/* Se md:flex-1 não for necessário, pode ser omitido */}
           </div>
-          <div className="container mx-auto px-4 flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-8">
-            <Artigo03 />
+          <div className="flex flex-col md:flex-row md:gap-8 items-center gap-8 justify-center pt-8 pb-8"> {/* Ajuste a classe conforme necessário */}
+            <Artigo03 className="md:flex-1" /> {/* Se md:flex-1 não for necessário, pode ser omitido */}
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
 
