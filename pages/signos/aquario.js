@@ -31,7 +31,7 @@ const Aquariotext = () => {
         <div className="relative min-h-screen container">
           <h2 className="text-3xl flex justify-center items-center text-center pt-4 text-gray-200">Aquário</h2>
           <div className="p-12 flex flex-1 gap-4">
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid lg:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 gap-4">
               <div className='flex items-center justify-right'>
                 <Image className='rounded-full w-48 shadow-lg shadow-black' src="/img/11.webp" alt="aries" width={500} height={500} />
               </div>

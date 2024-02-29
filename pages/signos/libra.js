@@ -13,7 +13,7 @@ const Libratext = () => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Signo de Áries - Astroblog</title>
+        <title>Signo de Libra - Astroblog</title>
       </Head>
       <div className='bg-[#1c212e]'>
         <Header />
@@ -32,7 +32,7 @@ const Libratext = () => {
         <div className="relative min-h-screen container">
           <h2 className="text-3xl flex justify-center items-center text-center pt-4 text-gray-200">Libra</h2>
           <div className="p-12 flex flex-1 gap-4">
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid lg:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 gap-4">
               <div className='flex items-center justify-right'>
                 <Image className='rounded-full w-48 shadow-lg shadow-black' src="/img/7.webp" alt="aries" width={500} height={500} />
               </div>
