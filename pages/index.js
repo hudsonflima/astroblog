@@ -11,6 +11,7 @@ const Home = () => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <meta name="description" content="Astroblog é sua plataforma principal para entusiastas da astrologia. Explore insights, aprenda sobre trânsitos, sinastria e efemérides, e participe de discussões significativas sobre o mundo místico da astrologia." />
         <meta name="keywords" content="astrologia, blog de astrologia, entusiastas da astrologia, insights de astrologia, trânsitos de astrologia, sinastria de astrologia, efemérides de astrologia" />
         <title>Home - Astroblog</title>
